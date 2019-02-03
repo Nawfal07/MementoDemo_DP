@@ -20,7 +20,7 @@ public class CompteBancaire {
         return new Memento(solde);
     }
     
-    public void getStateFromCompteBancaire(Memento c){
+    public void getStateFromCompteMemento(Memento c){
         solde = c.getSolde();
     }
 }
