@@ -5,7 +5,7 @@ package mementodemo;
  *
  * @author Nawfal
  */
-public class Originator {
+public class CompteBancaire {
     private double solde;
 
     public double getSolde() {
@@ -16,11 +16,11 @@ public class Originator {
         this.solde = solde;
     }
     
-    public CompteBancaire saveStateToCompteBancaire(){
-        return new CompteBancaire(solde);
+    public Memento saveStateToMemento(){
+        return new Memento(solde);
     }
     
-    public void getStateFromCompteBancaire(CompteBancaire c){
+    public void getStateFromCompteBancaire(Memento c){
         solde = c.getSolde();
     }
 }

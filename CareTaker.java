@@ -13,13 +13,13 @@ import java.util.List;
  * @author Nawfal
  */
 public class CareTaker {
-    private List<CompteBancaire>  compteList = new ArrayList<CompteBancaire>();
+    private List<Memento>  compteList = new ArrayList<Memento>();
     
-    public void add(CompteBancaire state){
+    public void add(Memento state){
         compteList.add(state);
     }
     
-    public CompteBancaire get(int index){
+    public Memento get(int index){
         return compteList.get(index);
     }
 }

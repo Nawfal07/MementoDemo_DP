@@ -9,10 +9,10 @@ package mementodemo;
  *
  * Classe qu'on veut enregistrer son etat
  */
-public class CompteBancaire {
+public class Memento {
     private double solde;
 
-    public CompteBancaire(double solde) {
+    public Memento(double solde) {
         this.solde = solde;
     }
 
