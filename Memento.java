@@ -7,7 +7,7 @@ package mementodemo;
 
 /**
  *
- * Classe qu'on veut enregistrer son etat
+ * Classe Memento qui enregistre l'etat du Originator
  */
 public class Memento {
     private double solde;
