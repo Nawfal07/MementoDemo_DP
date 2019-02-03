@@ -35,7 +35,7 @@ public class MementoDemo {
         System.out.println("Etat de solde actuel : "+originator.getSolde()+"DH");
 
         for(int i=0;i<3;i++){
-            originator.getStateFromMemeto(careTaker.get(i));
+            originator.getStateFromMemento(careTaker.get(i));
             System.out.println("Etat enregistré #"+(i+1)+" , solde est de : "+originator.getSolde()+"DH");
         }
         
